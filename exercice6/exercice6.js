@@ -1,17 +1,19 @@
 var x = Math.random()*10;
+var z = Math.floor(x);
+alert(z);
 var i = '';
 do {
   var y = prompt("entrez un nombre");
-  if (y<x) {
+  if (y<z) {
     alert("le nombre y est plus petit");
   }
-  else if (y>x) {
+  else if (y>z) {
     alert("le nombre y est plus grand");}
   else {
     alert("le nombre est trouvé en " + i, "coups");
   }
   i++;
 }
-while (x != y)
+while (z != y)
 
 
