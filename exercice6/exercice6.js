@@ -1,4 +1,4 @@
-var x = Math.random()*10;
+var x = Math.random()*100;
 var z = Math.floor(x);
 alert(z);
 var i = '';
@@ -10,7 +10,7 @@ do {
   else if (y>z) {
     alert("le nombre y est plus grand");}
   else {
-    alert("le nombre est trouvé en " + i, "coups");
+    alert("le nombre est trouvé en " + i +  " coups");
   }
   i++;
 }
