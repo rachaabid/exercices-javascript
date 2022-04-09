@@ -1,7 +1,7 @@
 var x = Math.random()*100;
 var z = Math.floor(x);
 alert(z);
-var i = '';
+var i = 0;
 do {
   var y = prompt("entrez un nombre");
   if (y<z) {
